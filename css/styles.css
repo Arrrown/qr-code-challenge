@@ -1,0 +1,54 @@
+body {
+  background-color: #AAE3E2;
+  text-align: center;
+}
+
+.qr {
+  background-color: #FFFFFF;
+  width: 230px;
+  margin: 150px auto 0;
+  font-family: 'Ubuntu', sans-serif;
+  line-height: 20px;
+  position: relative;
+  padding: 250px 15px 30px;
+  border-radius: 15px
+}
+
+.qrpic {
+  height: 230px;
+  width: 230px;
+  border-radius: 15px;
+  position: absolute;
+  top: 15px;
+  left: 15px;
+}
+
+.qrdescription1 {
+  font-size: 1rem;
+  width: 200px;
+  margin: auto;
+  padding: 10px;
+}
+
+.qrdescription2 {
+  font-size: 0.7rem;
+  font-weight: normal;
+  width: 200px;
+  margin: auto;
+}
+
+.challenge-by {
+  color: #03001C;
+  font-weight: normal;
+  font-size: 0.7rem;
+  font-family: 'Rajdhani', sans-serif;
+}
+
+.footer-link {
+  text-decoration: none;
+  color: #03001C;
+}
+
+.footer-link:hover {
+  color: #FFFFFF;
+}
