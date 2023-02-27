@@ -66,16 +66,18 @@ body {
 }
 
 .qrdescription2 {
+  color: #205E61;
   font-size: 0.7rem;
   font-weight: normal;
   width: 200px;
   margin: auto;
+  line-height: 1.3;
 }
 
 .challenge-by {
   color: #03001C;
   font-weight: normal;
-  font-size: 0.7rem;
+  font-size: 0.8rem;
   font-family: 'Rajdhani', sans-serif;
   padding-top: 10px;
 }
