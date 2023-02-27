@@ -1,16 +1,54 @@
+
+/*CSS reset start*/
+ *, *::before, *::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+}
+
+html, body {
+  height: 100%;
+}
+
 body {
-  background-color: #AAE3E2;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+img, picture, video, canvas, svg {
+  display: block;
+  max-width: 100%;
+}
+
+input, button, textarea, select {
+  font: inherit;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+  overflow-wrap: break-word;
+}
+
+#root, #__next {
+  isolation: isolate;
+}
+/*CSS reset end*/
+
+body {
+  background-color: #93BFCF;
   text-align: center;
+  display: grid;
+  justify-content: center;
+  align-items: center;
 }
 
 .qr {
   background-color: #FFFFFF;
-  width: 230px;
-  margin: 150px auto 0;
+  width: 260px;
   font-family: 'Ubuntu', sans-serif;
   line-height: 20px;
-  position: relative;
-  padding: 250px 15px 30px;
+  padding: 15px 15px 30px;
   border-radius: 15px
 }
 
@@ -18,16 +56,13 @@ body {
   height: 230px;
   width: 230px;
   border-radius: 15px;
-  position: absolute;
-  top: 15px;
-  left: 15px;
 }
 
 .qrdescription1 {
   font-size: 1rem;
   width: 200px;
   margin: auto;
-  padding: 10px;
+  padding: 10px 5px;
 }
 
 .qrdescription2 {
@@ -35,6 +70,7 @@ body {
   font-weight: normal;
   width: 200px;
   margin: auto;
+  padding: 0 5px;
 }
 
 .challenge-by {
@@ -42,6 +78,7 @@ body {
   font-weight: normal;
   font-size: 0.7rem;
   font-family: 'Rajdhani', sans-serif;
+  padding-top: 10px;
 }
 
 .footer-link {
