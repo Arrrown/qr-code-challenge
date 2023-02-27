@@ -62,7 +62,7 @@ body {
   font-size: 1rem;
   width: 200px;
   margin: auto;
-  padding: 10px 5px;
+  padding: 10px 0;
 }
 
 .qrdescription2 {
@@ -70,7 +70,6 @@ body {
   font-weight: normal;
   width: 200px;
   margin: auto;
-  padding: 0 5px;
 }
 
 .challenge-by {
